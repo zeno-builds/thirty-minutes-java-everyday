@@ -1,7 +1,7 @@
 package linked_lists.problems;
 import linked_lists.SLL;
 
-public class FindMiddleOfLinkedList {
+public class FindMiddleOfSLL {
     public static SLL.Node findMiddle(SLL list){
         SLL.Node slow = list.getHead();
         SLL.Node fast = list.getHead();
