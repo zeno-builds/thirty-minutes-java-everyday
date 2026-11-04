@@ -1,4 +1,4 @@
-package linked_lists;
+package dsa.raw.linked_lists;
 
 public class TestCDLL {
     public static void main(String args[]){

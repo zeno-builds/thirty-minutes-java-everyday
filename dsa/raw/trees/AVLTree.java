@@ -1,4 +1,4 @@
-package trees;
+package dsa.raw.trees;
 
 public class AVLTree {
     private Node root;
@@ -140,7 +140,7 @@ public class AVLTree {
     MISTAKES:
 
     1. Weight of a Tree: It is essential when we have conflicts of 2 rotations and want to choose between them.
-    Conflict: The one with the more weight is rotated.
+    Conflict: When we have more than one rotations occuring in a node, Then the one with the more weight is rotated.
     public int weight(Node node){
         if(node == null) return 0;
 

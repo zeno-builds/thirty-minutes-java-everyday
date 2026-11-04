@@ -1,4 +1,4 @@
-package trees;
+package dsa.raw.trees;
 
 public class TestAVL{
     public static void main(String args[]){

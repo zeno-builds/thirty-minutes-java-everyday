@@ -1,6 +1,6 @@
 // Understanding Singly Linked Lists in Java
 
-package linked_lists;
+package dsa.raw.linked_lists;
 
 
 public class TestSLL{

@@ -1,6 +1,6 @@
 //Understanding Doubly Linked List with Cycle Included in it.
 
-package linked_lists;
+package dsa.raw.linked_lists;
 
 public class CDLL {
     private Node head;
