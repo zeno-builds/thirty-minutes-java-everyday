@@ -23,7 +23,16 @@ public class BST {
         }
 
         return root;
-    }   
+    }
+    
+    //Search Function
+    public int search(Node node, int key){
+        if(node == null) return 0;
+        if(node.data == key)  return 1;
+        if(key < node.data) return search(node.left, key);
+        else if(key > node.data) return search(node.right, key);
+        return 0;
+    }
 
     // Display Function
     public void inorder(Node root){
