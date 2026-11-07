@@ -43,6 +43,15 @@ public class BST {
         System.out.printf("%d ", root.data);
     }
 
+    //Preorder Function
+    public void preorder(Node root){
+        if(root == null) return;
+
+        System.out.printf("%d ", root.data);
+        inorder(root.left);
+        inorder(root.right);
+    }
+
     public static class Node{
         public int data;
         public Node right;
