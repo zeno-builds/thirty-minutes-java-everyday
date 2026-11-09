@@ -39,8 +39,8 @@ public class BST {
         if(root == null) return;
 
         inorder(root.left);
-        inorder(root.right);
         System.out.printf("%d ", root.data);
+        inorder(root.right);
     }
 
     //Preorder Function
@@ -50,6 +50,15 @@ public class BST {
         System.out.printf("%d ", root.data);
         inorder(root.left);
         inorder(root.right);
+    }
+
+    //Postorder Function
+    public void postorder(Node root){
+        if(root == null) return;
+
+        postorder(root.left);
+        postorder(root.right);
+        System.out.printf("%d ", root.data);
     }
 
     public static class Node{
